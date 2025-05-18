@@ -18,5 +18,3 @@ Este repositório contém um projeto de exemplo utilizando [Django](https://www.
    python manage.py migrate
    python manage.py runserver
    ```
-
-Após a inicialização, acesse `http://127.0.0.1:8000/` para verificar o projeto padrão do Django.
