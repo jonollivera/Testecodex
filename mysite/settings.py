@@ -8,6 +8,7 @@ import os
 
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-replace-this-with-a-real-secret-key')
 
+
 DEBUG = True
 
 ALLOWED_HOSTS = []
@@ -19,7 +20,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
     'home',
+
 ]
 
 MIDDLEWARE = [

@@ -18,9 +18,3 @@ Este repositório contém um projeto de exemplo utilizando [Django](https://www.
    python manage.py migrate
    python manage.py runserver
    ```
-
-Defina a variável de ambiente `DJANGO_SECRET_KEY` para usar uma chave diferente em produção.
-
-A página inicial exibirá "JonCode" acessando `http://127.0.0.1:8000/`.
-
-Após a inicialização, acesse `http://127.0.0.1:8000/` para verificar o projeto padrão do Django.
